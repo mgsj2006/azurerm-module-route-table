@@ -20,7 +20,7 @@ Para evitar que seu código receba atualizações automáticas do modulo, é pre
 
 ```hcl
 module "route_table" {
-  source    = "git::https://timbrasil@dev.azure.com/timbrasil/Projeto_IaC/_git/modulo-route-table.git?ref=v1.0.0"
+  source    = "git::https://github.com/mgsj2006/azurerm-module-route-table.git?ref=v0.1.0"
   ip_groups = {
     "route_0" = {
       "address_prefix"         = "172.0.0.0/8"
