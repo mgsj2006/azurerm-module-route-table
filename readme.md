@@ -26,7 +26,7 @@ module "route_table" {
       "address_prefix"         = "172.0.0.0/8"
       "next_hop_in_ip_address" = "192.168.0.1"
       "next_hop_type"          = "VirtualAppliance"
-    }
+    },
     "route_1" = {
       "address_prefix"         = "10.0.0.0/8"
       "next_hop_in_ip_address" = null
